@@ -4,13 +4,15 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
+import Experience from './components/Experience';
 function App() {
   return (
-    <div>
+    <div className='flex flex-col space-y-20 bg-[#0a192f] '>
       <Navbar/>
       <Home/>
       <About/>
       <Skills/>
+      <Experience/>
     </div>
   );
 }
