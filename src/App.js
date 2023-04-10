@@ -7,7 +7,7 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 function App() {
   return (
-    <div className='flex flex-col space-y-20 bg-[#0a192f] '>
+    <div className='flex flex-col space-y-44 bg-[#0a192f] '>
       <Navbar/>
       <Home/>
       <About/>
